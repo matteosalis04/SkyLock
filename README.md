@@ -31,8 +31,8 @@ To use SkyLock, simply clone the repository and run the script:
 ```bash
 git clone https://github.com/matteosalis04/SkyLock.git
 cd SkyLock
-chmod +x backup.sh
-./backup.sh
+chmod +x skylock.sh
+./skylock.sh
 ```
 
 ---
@@ -47,7 +47,7 @@ chmod +x backup.sh
 ### Example Usage:
 
 ```bash
-$ ./backup.sh
+$ ./skylock.sh
 Which files do you want to save (e.g., pdf, txt, jpg): pdf
 Enter the user (leave empty for all): username
 ```
