@@ -108,11 +108,7 @@ function decrypt() {
     #echo "UnZip: /unzip_backup/$file_backup"
 }
 
-function mail_send() {
-    echo "In allegato trovi il file di log del sitema di Backup." > message.dat
-    mpack -s "Report SkyLock - $data" -d "./message.dat" /var/log/backup_log.log matteosalis04@gmail.com
-    echo "Email Inviata!!!"
-}
+
 
 
 function main() {
@@ -140,13 +136,10 @@ echo "3. Decrypt Mode"
 read -p "> " choice
 if [[ "$choice" == "1" ]]; then
 advanced
-mail_send
 elif [[ "$choice" == "2" ]]; then
 custom
-mail_send
 elif [[ "$choice" == "3" ]]; then
 classic
-mail_send
 elif [[ "$choice" == "4" ]]; then
 decrypt
 else
