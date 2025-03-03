@@ -8,7 +8,7 @@ set -e # gestione errori
 ######### By .MagicSale ######
 ##############################
 ##############################
-###### version.2.0.0. ########
+###### version.1.0.0. ########
 ##############################
 
 ## Permission root
@@ -103,9 +103,6 @@ function classic() {
 function decrypt() {
     echo "Work in progress!!!"
     exit 0
-    #key_decrypt=$(cat "/root/key_backup/key-$data-$type.txt")
-    #unzip -P "$key_decrypt" "/zip_backup/$file_backup.zip" -d "/unzip_backup"
-    #echo "UnZip: /unzip_backup/$file_backup"
 }
 
 
