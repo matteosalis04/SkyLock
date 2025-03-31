@@ -134,10 +134,8 @@ read -p "> " choice
 if [[ "$choice" == "1" ]]; then
 advanced
 elif [[ "$choice" == "2" ]]; then
-custom
-elif [[ "$choice" == "3" ]]; then
 classic
-elif [[ "$choice" == "4" ]]; then
+elif [[ "$choice" == "3" ]]; then
 decrypt
 else
 echo "No choice!!"
